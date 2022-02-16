@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. [Grab the MineCraft server](https://github.com/itzg/docker-minecraft-server/)
+1. [Grab the MineCraft server](https://github.com/itzg/docker-minecraft-server/) from [here](https://www.minecraft.net/en-us/download/server).
 2. [Install Java](https://tlauncher.org/en/install-java.html#install-java-linux)
 3. [Grab the TLauncher](https://tlauncher.org/en/install-java.html)
 
