@@ -3,7 +3,8 @@
 ## Installation
 
 1. [Grab the MineCraft server](https://github.com/itzg/docker-minecraft-server/)
-2. [Grab the TLauncher](https://tlauncher.org/en/install-java.html)
+2. [Install Java](https://tlauncher.org/en/install-java.html#install-java-linux)
+3. [Grab the TLauncher](https://tlauncher.org/en/install-java.html)
 
 ## Wire-up
 
@@ -17,4 +18,10 @@ docker-compose up
 
 ```shell-script
 ./TLauncher.sh
+```
+
+### Bin
+
+```shell-script
+sudo yum install java-11-openjdk
 ```
