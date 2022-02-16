@@ -6,7 +6,7 @@
 
 ```shell-script
 git clone git@github.com:barseghyanartur/minecraft-server-example.git
-    ```
+```
 
 ### 2. Grab the MineCraft server
 
