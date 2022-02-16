@@ -4,17 +4,17 @@
 
 ### 1. Clone this repository
 
-    ```shell-script
-    git clone git@github.com:barseghyanartur/minecraft-server-example.git
+```shell-script
+git clone git@github.com:barseghyanartur/minecraft-server-example.git
     ```
 
 ### 2. Grab the MineCraft server
 
 [Grab the MineCraft server](https://www.minecraft.net/en-us/download/server).
 
-    ```shell-script
-    wget -O minecraft_server.1.18.1.jar https://launcher.mojang.com/v1/objects/125e5adf40c659fd3bce3e66e67a16bb49ecc1b9/server.jar
-    ```
+```shell-script
+wget -O minecraft_server.1.18.1.jar https://launcher.mojang.com/v1/objects/125e5adf40c659fd3bce3e66e67a16bb49ecc1b9/server.jar
+```
 
 ### 3. Install Java
 
