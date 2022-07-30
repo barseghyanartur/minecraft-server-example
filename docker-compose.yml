@@ -9,8 +9,11 @@ services:
       EULA: "TRUE"
       DEBUG: "TRUE"
       ONLINE_MODE: "FALSE"
+      VERSION: "1.19"
     volumes:
-      - mc:/data
+#      - data:/data
+      - ./data:/data
+      - ./exchange:/tmp/exchange
     tty: true
     stdin_open: true
     restart: unless-stopped
@@ -22,7 +25,8 @@ services:
       # RCON_HOST: mc
     volumes:
     # mount the same volume used by server, but read-only
-    - mc:/data:ro
+#    - data:/data:ro
+    - ./data:/data:ro
     # use a host attached directory so that it in turn can be backed up
     # to external/cloud storage
     - ./mc-backups:/backups
@@ -31,5 +35,5 @@ services:
     tty: true
     stdin_open: true
 
-volumes:
-  mc: {}
+#volumes:
+#  data: {}
